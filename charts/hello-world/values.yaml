@@ -23,5 +23,5 @@ serviceAccount:
   name: ""
 
 service:
-  type: ClusterIP
-  port: 5274
+  type: NodePort
+  port: 52740
