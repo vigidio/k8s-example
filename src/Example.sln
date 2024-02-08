@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example-api", "example-api\example-api.csproj", "{80D8D029-7B02-4730-AF19-D67FBD68C287}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{BAD9B26A-F5AE-4ED4-9452-7AEA6C16493F}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80D8D029-7B02-4730-AF19-D67FBD68C287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D8D029-7B02-4730-AF19-D67FBD68C287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D8D029-7B02-4730-AF19-D67FBD68C287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D8D029-7B02-4730-AF19-D67FBD68C287}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

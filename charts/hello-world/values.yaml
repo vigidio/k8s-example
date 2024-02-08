@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: vigidio/k8s-example
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
@@ -24,4 +24,4 @@ serviceAccount:
 
 service:
   type: ClusterIP
-  port: 80
+  port: 5274
