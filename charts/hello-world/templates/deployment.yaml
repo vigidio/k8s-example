@@ -23,11 +23,20 @@ spec:
             - name: http
               containerPort: 5274
               protocol: TCP
+          resources:
+            limits:
+              cpu: 1
+            requests:
+              cpu: 400m
           livenessProbe:
             httpGet:
               path: /
               port: http
+            periodSeconds: 30
+            timeoutSeconds: 10
           readinessProbe:
             httpGet:
               path: /
               port: http
+            periodSeconds: 30
+            timeoutSeconds: 10

@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{BAD9B26A-F5AE-4ED4-9452-7AEA6C16493F}"
 	ProjectSection(SolutionItems) = preProject
 		Dockerfile = Dockerfile
+		..\charts\hello-world\Chart.yaml = ..\charts\hello-world\Chart.yaml
 	EndProjectSection
 EndProject
 Global
