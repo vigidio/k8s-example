@@ -10,7 +10,9 @@ app.MapGet("/prime", () =>
 {
     var primeNumbers = new ConcurrentBag<int>();
 
-    Parallel.ForEach(Enumerable.Range(1, 1000), num =>
+    var rand = new Random();
+
+    Parallel.ForEach(Enumerable.Range(1, rand.Next(100, 1000)), num =>
     {
         if (IsPrime(num))
             primeNumbers.Add(num);
