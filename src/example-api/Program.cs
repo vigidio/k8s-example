@@ -12,7 +12,7 @@ app.MapGet("/prime", () =>
 
     var rand = new Random();
 
-    Parallel.ForEach(Enumerable.Range(1, rand.Next(100, 1000)), num =>
+    Parallel.ForEach(Enumerable.Range(1, rand.Next(1000, 2000)), num =>
     {
         if (IsPrime(num))
             primeNumbers.Add(num);
